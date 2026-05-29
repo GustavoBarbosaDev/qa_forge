@@ -42,7 +42,7 @@ def driver(request):
         raise FileNotFoundError(f"ChromeDriver não encontrado: {driver_path}")
 
     navegador = webdriver.Chrome(
-        service=Service(driver_path),
+        service=Service(_CHROME_DRIVER_PATH := driver_path),
         options=opcoes,
     )
 
