@@ -90,8 +90,9 @@ jobs:
       - name: 🌐 Instalar Chrome + ChromeDriver
         uses: browser-actions/setup-chrome@v1
         with:
-          chrome-version: stable
+          chrome-version: 148
           install-chromedriver: true
+          chromedriver-version: 148
 
       - name: 🔬 Executar testes Web
         run: |
