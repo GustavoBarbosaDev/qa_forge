@@ -1,0 +1,23 @@
+# ============================================================
+#  QA Forge — Dependências do Projeto
+# ============================================================
+
+# --- Core de Testes ---
+pytest==8.2.2
+pytest-html==4.1.1          # Relatórios HTML legíveis
+pytest-env==1.1.3            # Variáveis de ambiente via pytest.ini
+pytest-ordering==0.6         # Controle de ordem de execução
+
+# --- API ---
+requests==2.32.3
+jsonschema==4.22.0           # Validação de contratos JSON
+
+# --- Web ---
+selenium==4.21.0
+webdriver-manager==4.0.1     # Gerencia drivers automaticamente
+
+# --- Geração de Dados ---
+Faker==25.3.0
+
+# --- Utilitários ---
+python-dotenv==1.0.1         # Carrega .env em desenvolvimento local

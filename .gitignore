@@ -1,0 +1,37 @@
+# ============================================================
+#  QA Forge — .gitignore
+# ============================================================
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+*.egg-info/
+dist/
+build/
+.venv/
+venv/
+env/
+
+# Pytest / Relatórios
+.pytest_cache/
+reports/
+*.html
+*.xml
+
+# Variáveis de ambiente locais (nunca commitar)
+.env
+.env.local
+
+# IDEs
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# WebDriver Manager (cache local de drivers)
+.wdm/
+
+# macOS
+.DS_Store
