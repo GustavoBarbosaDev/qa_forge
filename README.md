@@ -114,6 +114,14 @@ Push / PR
 
 ---
 
+Prints do funcionamento
+
+##Testes de API
+<img width="1911" height="1011" alt="image" src="https://github.com/user-attachments/assets/825b4d44-fe54-40cf-90b9-613b92eebcaf" />
+
+##Testes Web
+<img width="1908" height="1018" alt="image" src="https://github.com/user-attachments/assets/8161633a-293c-4857-80fd-8d539ced9d74" />
+
 ## 🧰 Tecnologias
 
 - **Python 3.11+** — linguagem principal
